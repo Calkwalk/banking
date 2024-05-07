@@ -24,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/icons/logo.svg" type="image/x-icon" />
+      </head>
       <body className={`${inter.variable} ${ibmPlexSerif.variable}`}>
         {children}
         </body>
